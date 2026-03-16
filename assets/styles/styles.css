@@ -3,8 +3,8 @@
 
 :root{ /* CSS Variables */ 
     --primary-text-color: #fff;
-    --background-color: #0f0f1a;
-    --footer-color: #1a1a2e;
+    --footer-color: #22224c;
+    --background-color: #1a1a2e;
     --app-color1:  #09637E;
     --app-color2: #088395;
     --app-color3:  #7AB2B2;
@@ -27,4 +27,35 @@ body {
     /* background: 
         linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
         url("../media/background.jpg") center/cover no-repeat; */
+}
+
+/* Header */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    height: 80px;
+    line-height: 60px;
+    color: white;
+    background-color: var(--footer-color);
+    padding: 10px;
+}
+
+ul {
+    gap: 20px;
+    font-size: 17px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav ul li a:hover { 
+    color: var(--app-color5);
+    font-size: 20px;
 }
