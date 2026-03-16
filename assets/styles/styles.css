@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import './reset.css';
+
+:root{ /* CSS Variables */ 
+    --primary-text-color: #fff;
+    --background-color: #0f0f1a;
+    --footer-color: #1a1a2e;
+    --app-color1:  #09637E;
+    --app-color2: #088395;
+    --app-color3:  #7AB2B2;
+    --app-color4: #fdf2f2;
+    --app-color5: #7687f6;
+    --app-color6: #00f5ff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: 
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url("../media/background.jpg") center/cover no-repeat;
+}
