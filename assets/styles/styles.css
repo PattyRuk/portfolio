@@ -29,14 +29,12 @@ body {
         url("../media/background.jpg") center/cover no-repeat; */
 }
 
+/* Header */
+
 .flex {
     display: flex;
     justify-content: space-between;
 }
-
-
-
-/* Header */
 
 header{
     height: 80px;
@@ -52,13 +50,12 @@ ul {
     list-style: none;
 }
 
-
 nav ul li a {
     text-decoration: none;
     color: white;
     cursor: pointer;
 }
-nav ul li a:hover {
-    font-weight: 400; 
+nav ul li a:hover { 
     color: var(--app-color5);
+    font-size: 20px;
 }
