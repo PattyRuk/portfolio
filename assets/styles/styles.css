@@ -3,7 +3,7 @@
 
 :root{ /* CSS Variables */ 
     --primary-text-color: #fff;
-    --background-color: #0f0f1a;
+    --background-color: #22224c;
     --footer-color: #1a1a2e;
     --app-color1:  #09637E;
     --app-color2: #088395;
@@ -16,7 +16,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: var(--background-color);
+    background-color: var(--footer-color);
     color: var(--primary-text-color);
 }
 
@@ -28,3 +28,20 @@ body {
         linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
         url("../media/background.jpg") center/cover no-repeat; */
 }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Header */
+
+header{
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: var(--background-color);
+}
+
