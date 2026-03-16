@@ -3,8 +3,8 @@
 
 :root{ /* CSS Variables */ 
     --primary-text-color: #fff;
-    --background-color: #22224c;
-    --footer-color: #1a1a2e;
+    --footer-color: #22224c;
+    --background-color: #1a1a2e;
     --app-color1:  #09637E;
     --app-color2: #088395;
     --app-color3:  #7AB2B2;
@@ -16,7 +16,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: var(--footer-color);
+    background-color: var(--background-color);
     color: var(--primary-text-color);
 }
 
@@ -39,9 +39,26 @@ body {
 /* Header */
 
 header{
-    height: 60px;
+    height: 80px;
     line-height: 60px;
     color: white;
-    background-color: var(--background-color);
+    background-color: var(--footer-color);
+    padding: 10px;
 }
 
+ul {
+    gap: 20px;
+    font-size: 17px;
+    list-style: none;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    font-weight: 400; 
+    color: var(--app-color5);
+}
