@@ -10,7 +10,7 @@
     --app-color3:  #7AB2B2;
     --app-color4: #fdf2f2;
     --app-color5: #7687f6;
-    --app-color6: #00f5ff;
+    --app-color6: #400546;
 }
 
 body {
@@ -35,35 +35,38 @@ section {
 }
 
 .hero {
-  /* Set your image URL */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-image.jpg');
-  background-size: cover; /* Ensures image covers area without stretching */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
-  /* Flexbox to center content */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+    /* Set your image URL */
+    background: rgb(45, 37, 37) url("../media/background.jpg") center/cover no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-image.jpg');
+    background-size: cover; /* Ensures image covers area without stretching */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    /* Flexbox to center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+    font-size: 38px;
+    margin-bottom: 10px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--app-color2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
 }
-
+ .btn:hover {
+    background-color: var(--app-color6) ;
+ }
 
 
 
