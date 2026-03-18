@@ -41,7 +41,7 @@ p {
 
 .hero {
     /* Set your image URL */
-    background: rgb(0, 0, 0, 0.95) url("../media/background2.png") center/cover no-repeat;
+    background: rgb(0, 0, 0, 0.95) url("../media/aesthetic.jpg") center/cover no-repeat;
     background-size: cover; /* Ensures image covers area without stretching */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: var(--primary-text-color);
 }
 
 .hero-content {
