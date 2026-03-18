@@ -27,7 +27,34 @@ main {
     height: 100vh;
     padding: 10px;
 }
+section {
+    margin: 10px;
 
+}
+
+.about {
+    background: var(--footer-color);
+    padding: 80px 20px;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+}
 
 
 /* Header & Footer*/
