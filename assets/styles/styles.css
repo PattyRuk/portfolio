@@ -8,7 +8,7 @@
     --app-color1:  #09637E;
     --app-color2: #088395;
     --app-color3:  #7AB2B2;
-    --app-color4: #fdf2f2;
+    --app-color4: #62fcea;
     --app-color5: #7687f6;
     --app-color6: #400546;
 }
@@ -27,17 +27,21 @@ body {
 section {
     margin: 10px;
 }
+
+p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 .hero {
-    max-width: 95%;
-    margin: auto;
+    max-width: 100%;
+    margin: 10px;
     text-align: center;
     height: 100vh;
 }
 
 .hero {
     /* Set your image URL */
-    background: rgb(45, 37, 37) url("../media/background.jpg") center/cover no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-image.jpg');
+    background: rgb(0, 0, 0, 0.95) url("../media/background2.png") center/cover no-repeat;
     background-size: cover; /* Ensures image covers area without stretching */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -50,9 +54,23 @@ section {
     color: white;
 }
 
+.hero-content {
+    font-weight: 500;
+}
+
+h1:hover {
+    color: var(--app-color4);
+}
+
 .hero-content h1 {
-    font-size: 38px;
-    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.hero-content h1:hover {
+    font-size: 55px;
+    font-weight: 1000;
 }
 
 .btn {
@@ -65,7 +83,7 @@ section {
     margin-top: 1rem;
 }
  .btn:hover {
-    background-color: var(--app-color6) ;
+    background-color: var(--app-color5) ;
  }
 
 
@@ -146,7 +164,7 @@ nav ul li a {
     cursor: pointer;
 }
 nav ul li a:hover { 
-    color: var(--app-color5);
+    color: var(--app-color4);
     font-size: 20px;
 }
 
