@@ -23,15 +23,16 @@ body {
     color: var(--primary-text-color);
     margin: 0 auto;
 }
-main {
-    height: 100vh;
-    padding: 10px;
-}
+
 section {
     margin: 10px;
-
 }
-
+.hero {
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+}
 .about {
     background: var(--footer-color);
     padding: 80px 20px;
