@@ -70,7 +70,7 @@ h1:hover {
 .hero-content h1:hover {
     font-size: 50px;
     font-weight: 1000;
-    color: var(--app-color5);
+    color: var(--app-color4);
 }
 
 .btn {
@@ -83,7 +83,7 @@ h1:hover {
     margin-top: 1rem;
 }
 .btn:hover {
-    background-color: var(--app-color5) ;
+    background-color: var(--app-color6) ;
 }
 
 /* About */
@@ -190,7 +190,7 @@ ul {
 }
 
 nav ul li {
-    margin: 30px 60px;
+    margin: 30px 30px;
     align-items: center;
     justify-content: space-around;
 }
