@@ -119,7 +119,45 @@ h1:hover {
 }
 
 /* Highlights */
+.highlights-section {
+    padding: 40px 20px;
+    text-align: center;
+}
 
+.highlights-section h2 {
+    margin-bottom: 20px;
+    color: var(--app-color6);
+}
+
+.about-highlights{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.highlight {
+    background-color: var(--primary-text-color);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; 
+    max-width: 300px; 
+    transition: transform 0.3s ease; 
+}
+
+.highlight:hover {
+    transform: translateY(-5px); /* Lift the item slightly on hover */
+}
+
+.highlight h3 {
+    color: var(--footer-color);
+    margin-top: 0;
+}
+
+.highlight p {
+    color: var(--app-color5);
+    margin-bottom: 15px;
+}
 
 
 /* Header & Footer*/
