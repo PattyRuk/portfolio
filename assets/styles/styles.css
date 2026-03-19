@@ -201,12 +201,12 @@ nav ul li {
     justify-content: space-around;
 }
 
-nav ul li a {
+a {
     text-decoration: none;
     color: var(--primary-text-color);
     cursor: pointer;
 }
-nav ul li a:hover { 
+a:hover { 
     color: var(--app-color4);
     font-size: 20px;
 }
