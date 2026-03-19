@@ -36,19 +36,17 @@ p {
 /* Hero */
 .hero {
     max-width: 100%;
-    margin: 10px;
+    margin: 0 auto;
     text-align: center;
     height: 100vh;
 }
 
 .hero {
-    /* Set your image URL */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/background2.png");
-    background-size: cover; /* Ensures image covers area without stretching */
-    background-position: center; /* Centers the image */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
-    height: 100vh; /* Full viewport height */
-    /* Flexbox to center content */
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +118,6 @@ h1:hover {
 
 
 
-
 /* Header & Footer*/
 footer, header {
     display: inline-flex;
@@ -132,7 +129,7 @@ footer, header {
 header {
     height: 80px;
     line-height: 60px;
-    color: white;
+    color: var(--primary-text-color);
     padding: 10px;
 }
 
@@ -158,7 +155,7 @@ footer nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-text-color);
     cursor: pointer;
 }
 nav ul li a:hover { 
