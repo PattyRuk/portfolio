@@ -18,7 +18,7 @@ body {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures footer is at the bottom of the viewport if content is short */
+    min-height: 100vh; 
     background-color: var(--background-color);
     color: var(--primary-text-color);
     margin: 0 auto;
@@ -36,7 +36,6 @@ p {
 
 /* Hero */
 .hero {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/background2.png"); */
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -140,7 +139,7 @@ h1:hover {
 }
 
 .highlight:hover {
-    transform: translateY(-5px); /* Lift the item slightly on hover */
+    transform: translateY(-5px); 
 }
 
 .highlight h3 {
