@@ -22,6 +22,7 @@ body {
     background-color: var(--background-color);
     color: var(--primary-text-color);
     margin: 0 auto;
+    width: auto;
 }
 
 section {
@@ -35,14 +36,14 @@ p {
 
 /* Hero */
 .hero {
-    max-width: 100%;
+    max-width: auto;
     margin: 0 auto;
     text-align: center;
     height: 100vh;
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/background2.png");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/background2.png"); */
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -58,6 +59,10 @@ p {
     font-weight: 500;
 }
 
+h1 {
+    margin-top: 10px;
+    margin-right: 60px;
+}
 h1:hover {
     color: var(--app-color4);
 }
@@ -117,25 +122,22 @@ h1:hover {
 
 
 
-
 /* Header & Footer*/
 footer, header {
-    display: inline-flex;
     justify-content: space-around;
     background-color: var(--footer-color);
-    width: 100%;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    color: var(--primary-text-color);
+    flex-wrap: wrap;
+
 }
 
-header {
-    height: 80px;
-    line-height: 60px;
-    color: var(--primary-text-color);
-    padding: 10px;
-}
 
 footer {
     margin-top: auto;
-    padding: 1rem;
+    align-items: center;
 }
 
 ul {
@@ -146,8 +148,8 @@ ul {
     list-style: none;
 }
 
-footer nav ul li {
-    gap: 50px;
+nav ul li {
+    gap: 30px;
     margin: 30px 60px;
     align-items: center;
     justify-content: space-around;
