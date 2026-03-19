@@ -203,5 +203,10 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
+a i {
+    font-size: large;
+    font-weight: 500;
+}
+
 
 
