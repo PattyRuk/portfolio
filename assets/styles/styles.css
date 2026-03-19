@@ -94,6 +94,8 @@ h2 {
     text-align: center;
 }
 
+
+
 h2:hover {
     color: var(--app-color4);
     font-size: 40px;
@@ -101,7 +103,7 @@ h2:hover {
 
 .about {
     background: var(--footer-color);
-    padding: 80px 20px;
+    padding: 50px 20px;
     border-radius: 10px;
 }
 
@@ -124,22 +126,21 @@ h2:hover {
     text-align: center;
 }
 
-.highlights-section h2 {
-    margin-bottom: 20px;
-    color: var(--app-color6);
-}
-
 .about-highlights{
     display: flex;
     justify-content: center;
     gap: 20px; 
     flex-wrap: wrap; 
-    padding: 20px;
+    padding: 10px 20px 30px;
+}
+
+.highlight-header {
+    margin-top: 30px;
 }
 
 .highlight {
-    background-color: var(--primary-text-color);
-    padding: 20px;
+    background-color: var(--app-color5);
+    padding: 30px 20px;
     border-radius: 8px;
     flex: 1 1 300px; 
     max-width: 300px; 
@@ -147,7 +148,7 @@ h2:hover {
 }
 
 .highlight:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-8px); 
 }
 
 .highlight h3 {
@@ -156,7 +157,7 @@ h2:hover {
 }
 
 .highlight p {
-    color: var(--app-color5);
+    color: var(--primary-text-color);
     margin-bottom: 15px;
 }
 
