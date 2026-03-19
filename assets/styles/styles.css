@@ -36,13 +36,6 @@ p {
 
 /* Hero */
 .hero {
-    max-width: auto;
-    margin: 0 auto;
-    text-align: center;
-    height: 100vh;
-}
-
-.hero {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/background2.png"); */
     background-size: cover; 
     background-position: center; 
@@ -134,13 +127,14 @@ h1:hover {
     justify-content: center;
     gap: 20px; 
     flex-wrap: wrap; 
+    padding: 20px;
 }
 
 .highlight {
     background-color: var(--primary-text-color);
     padding: 20px;
     border-radius: 8px;
-    flex: 1; 
+    flex: 1 1 300px; 
     max-width: 300px; 
     transition: transform 0.3s ease; 
 }
@@ -169,7 +163,8 @@ footer, header {
     display: flex;
     color: var(--primary-text-color);
     flex-wrap: wrap;
-
+    margin-top: auto;
+    align-items: center;
 }
 
 
@@ -187,7 +182,6 @@ ul {
 }
 
 nav ul li {
-    gap: 30px;
     margin: 30px 60px;
     align-items: center;
     justify-content: space-around;
@@ -208,5 +202,10 @@ a i {
     font-weight: 500;
 }
 
+/* Responsiveness */
+@media (max-width: 600px) {
+    .about-highlights {
+        flex-direction: column; /* Stack vertically on small screens */
+    }
 
-
+}
