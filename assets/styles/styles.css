@@ -32,6 +32,8 @@ p {
     font-size: 20px;
     margin-bottom: 5px;
 }
+
+/* Hero */
 .hero {
     max-width: 100%;
     margin: 10px;
@@ -83,20 +85,11 @@ h1:hover {
     border-radius: 5px;
     margin-top: 1rem;
 }
- .btn:hover {
+.btn:hover {
     background-color: var(--app-color5) ;
- }
+}
 
-
-
-
-
-
-
-
-
-
-
+/* About */
 .about {
     background: var(--footer-color);
     padding: 80px 20px;
@@ -122,9 +115,13 @@ h1:hover {
     color: var(--primary-text-color);
 }
 
+/* Highlights */
+
+
+
+
 
 /* Header & Footer*/
-
 footer, header {
     display: inline-flex;
     justify-content: space-around;
