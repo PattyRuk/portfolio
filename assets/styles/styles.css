@@ -97,6 +97,7 @@ h1:hover {
 /* About */
 h2 {
     font-size: 36px;
+    font-weight: 900;
     margin-bottom: 20px;
     color: var(--primary-text-color);
     text-align: center;
@@ -175,6 +176,7 @@ img {
     color: var(--footer-color);
     margin-bottom: 10px;
     font-size: 25px;
+    font-weight: 800;
 }
 
 .highlight p {
@@ -195,7 +197,6 @@ footer, header {
     margin-top: auto;
     align-items: center;
 }
-
 
 footer {
     margin-top: auto;
@@ -231,6 +232,13 @@ a i {
     font-size: 30px;
     font-weight: 500;
 }
+
+/*back to top*/
+
+
+
+
+
 
 /* Responsiveness */
 @media (max-width: 600px) {
