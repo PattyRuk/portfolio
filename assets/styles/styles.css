@@ -85,7 +85,7 @@ h1:hover {
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--app-color2);
-    color: white;
+    color: var(--primary-text-color);
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1rem;
