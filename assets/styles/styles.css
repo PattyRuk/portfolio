@@ -198,10 +198,6 @@ footer, header {
     align-items: center;
 }
 
-footer {
-    margin-top: auto;
-    align-items: center;
-}
 
 ul {
     display: inline-flex;
@@ -243,7 +239,6 @@ a i {
   height: 50px;
   color: var(--app-color5);
   font-size: 30px;
-  cursor: pointer;
 }
 
 
