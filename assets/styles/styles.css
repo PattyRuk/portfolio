@@ -57,20 +57,28 @@ h1 {
     margin-top: 10px;
     margin-right: 60px;
 }
+
 h1:hover {
     color: var(--app-color4);
+    text-shadow: 0 0 10px var(--app-color5);
+;
 }
 
 .hero-content h1 {
     font-size: 45px;
     font-weight: 900;
     margin-bottom: 30px;
+    color: var(--app-color4);
 }
 
 .hero-content h1:hover {
     font-size: 50px;
     font-weight: 1000;
     color: var(--app-color4);
+}
+
+.hero-content .btn {
+    margin-top: 30px;
 }
 
 .btn {
@@ -99,6 +107,8 @@ h2 {
 h2:hover {
     color: var(--app-color4);
     font-size: 40px;
+    text-shadow: 0 0 10px var(--app-color4);
+
 }
 
 .about {
@@ -150,14 +160,11 @@ img {
     flex: 1 1 300px; 
     max-width: 300px; 
     transition: transform 0.3s ease; 
-    box-shadow: 0 0 10px var(--app-color4);
 }
 
 .highlight:hover {
     transform: translateY(-8px); 
-    box-shadow: 
-        0 0 20px var(--app-color4), 
-        0 0 40px var(--app-color4);
+    box-shadow: 0 0 40px var(--app-color4);
 }
 
 .highlight h3 {
@@ -213,6 +220,7 @@ a {
 a:hover { 
     color: var(--app-color4);
     font-size: 20px;
+    text-shadow: 0 0 10px var(--app-color4);
 }
 
 a i {
