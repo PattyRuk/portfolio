@@ -1,13 +1,14 @@
 @charset "UTF-8";
 @import './reset.css';
 
-:root{ /* CSS Variables */ 
+:root {
+    /* CSS Variables */
     --primary-text-color: #fff;
     --footer-color: #22224c;
     --background-color: #1a1a2e;
-    --app-color1:  #09637E;
+    --app-color1: #09637E;
     --app-color2: #088395;
-    --app-color3:  #7AB2B2;
+    --app-color3: #7AB2B2;
     --app-color4: #62fcea;
     --app-color5: #7687f6;
     --app-color6: #400546;
@@ -18,7 +19,7 @@ body {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
     background-color: var(--background-color);
     color: var(--primary-text-color);
     margin: 0 auto;
@@ -37,11 +38,11 @@ p {
 
 /* Hero */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/background4.jpg);
-    background-size: cover; 
-    background-position: center; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/34/1e/80/341e800b1f29d3e34ea2eba5a6af205c.gif);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,8 +91,9 @@ h1:hover {
     border-radius: 5px;
     margin-top: 1rem;
 }
+
 .btn:hover {
-    background-color: var(--app-color6) ;
+    background-color: var(--app-color6);
 }
 
 /* About */
@@ -131,7 +133,7 @@ h2:hover {
     color: var(--primary-text-color);
 }
 
-.about p:hover { 
+.about p:hover {
     color: var(--app-color4);
 }
 
@@ -139,6 +141,7 @@ h2:hover {
 img {
     border: 1px solid var(--footer-color);
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .highlights-section {
@@ -146,11 +149,11 @@ img {
     text-align: center;
 }
 
-.about-highlights{
+.about-highlights {
     display: flex;
     justify-content: center;
-    gap: 20px; 
-    flex-wrap: wrap; 
+    gap: 20px;
+    flex-wrap: wrap;
     padding: 10px 20px 30px;
 }
 
@@ -162,13 +165,13 @@ img {
     background-color: var(--app-color5);
     padding: 30px 20px;
     border-radius: 8px;
-    flex: 1 1 300px; 
-    max-width: 300px; 
-    transition: transform 0.3s ease; 
+    flex: 1 1 300px;
+    max-width: 350px;
+    transition: transform 0.3s ease;
 }
 
 .highlight:hover {
-    transform: translateY(-8px); 
+    transform: translateY(-8px);
     box-shadow: 0 0 40px var(--app-color4);
 }
 
@@ -186,7 +189,8 @@ img {
 
 
 /* Header & Footer*/
-footer, header {
+footer,
+header {
     justify-content: space-around;
     background-color: var(--footer-color);
     width: auto;
@@ -218,9 +222,10 @@ a {
     color: var(--primary-text-color);
     cursor: pointer;
 }
-a:hover { 
+
+a:hover {
     color: var(--app-color4);
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 0 0 10px var(--app-color4);
 }
 
@@ -231,14 +236,14 @@ a i {
 
 /*back to top*/
 #back-to-top {
-  position: fixed;
-  bottom: 10px; 
-  right: 10px; 
-  z-index: 99; /* Ensures it's above other content */
-  width: 50px;
-  height: 50px;
-  color: var(--app-color5);
-  font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99; /* Ensures it's above other content */
+    width: 50px;
+    height: 50px;
+    color: var(--app-color5);
+    font-size: 30px;
 }
 
 
@@ -247,5 +252,7 @@ a i {
     .about-highlights {
         flex-direction: column;
     }
+
+    
 
 }
