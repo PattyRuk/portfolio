@@ -185,6 +185,8 @@ img {
 .highlight p {
     color: var(--primary-text-color);
     margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 650;
 }
 
 
@@ -202,6 +204,9 @@ header {
     align-items: center;
 }
 
+span h1 {
+    font-weight: 980;
+}
 
 ul {
     display: inline-flex;
