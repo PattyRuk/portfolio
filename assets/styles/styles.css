@@ -98,6 +98,11 @@ nav ul.flex a:hover {
     color: var(--accent);
 }
 
+li:hover {
+    transform: translateY(-3px);
+}
+
+
 /* Button */
 .btn {
     display: inline-flex;
@@ -192,8 +197,7 @@ nav ul.flex a:hover {
 /* Highlights - Profile */
 
 .highlight-section {
-    padding: 6rem 5%;
-    max-width: 1200px;
+    padding: 3rem 5%;
     margin: 0 auto;
     width: 100%;
 }
@@ -210,7 +214,7 @@ nav ul.flex a:hover {
 
 .about-highlights {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
 }
 
@@ -296,10 +300,12 @@ nav ul.flex a:hover {
     background-color: var(--bg-main);
 }
 
-.one{background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA5L3NyLWltYWdlLTE1MDgyNS1oaTE1LXMtMTc2MC1wb3N0ZXIuanBn.jpg);}
-.two{background-image: url(https://img.magnific.com/free-vector/hand-drawn-career-cushioning-concept_23-2150852768.jpg?semt=ais_hybrid&w=740&q=80___.YzJ1Om1hbml0b2JhaW5zdGl0dXRlb2Z0cmFkZXNhbmR0ZWNobm9sb2d5OmM6bzozMWVkYjhjMzIyNTk5NTdmMjE1MmRhZTRjNzA4YzdjNDo3OjhhYzU6NzU5Y2NhZDliMGZkMTExMTNlMDJlMTczZTUwMTA4Njc3YmRkMDEzZjQ2YTBiMGZjMDIyOTZhZmZhMDFkOWUwMDp0OlQ6Tg);}
-.three{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9QbLCthmzAg6NQkigcDKt3LIHCLKhJyO8Zg&s___.YzJ1Om1hbml0b2JhaW5zdGl0dXRlb2Z0cmFkZXNhbmR0ZWNobm9sb2d5OmM6bzozMWVkYjhjMzIyNTk5NTdmMjE1MmRhZTRjNzA4YzdjNDo3OmNlNWM6M2NiM2RjYTM4YjAyNTQ0YWU5OThhM2IxNmRiOGZhZDBhZWM1YThmOGEyODY4ODQyY2U2ZTE2YmFmNTYxYjJiYTp0OlQ6Tg);}
-
+.one{background-image: url(https://cdn.dribbble.com/userupload/20255086/file/original-8dc949cfe3d32a38ebd66be432aa165d.gif);}
+.two{background-image: url(https://cdn.dribbble.com/userupload/25159474/file/original-1a44e02216c519975a1f592b13d72076.gif);}
+.three{background-image: url(https://pixel77.com/wp-content/uploads/2016/05/graphic-design-gifs-2-1.gif);}
+.four{background-image: url(https://64.media.tumblr.com/f0cc44982894b7efdb236a6f83cdb465/tumblr_npmmkbmHhs1t44zdso1_500.gif);}
+.six{background-image: url(https://cdn-icons-gif.flaticon.com/12525/12525300.gif);}
+.five{background-image: url(https://cdn-icons-gif.flaticon.com/17675/17675717.gif);}
 
 .project.card .title {
     font-family: 'Roboto Condensed', sans-serif;
@@ -314,6 +320,53 @@ nav ul.flex a:hover {
 .project.card .projects-btn {
     margin-top: auto;
     width: 100%;
+}
+
+/* Tech Card */
+.section-subtitle {
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.tech-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent-orange);
+}
+
+.tech-icon {
+    font-size: 2.5rem;
+    color: var(--accent-orange);
+    margin-bottom: 1rem;
+}
+
+.tech-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.tech-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
 }
 
 /* Scroll */
