@@ -2,8 +2,6 @@
 
 A sleek, responsive, and technical portfolio website built to showcase a diverse range of front-end applications, full-stack tools, and software engineering capabilities. This platform is optimized to connect with hiring managers and secure a Software Developer Co-op role.
 
-**Live Demo:** [pattyruk.github.io/portfolio](https://github.io)
-
 ---
 
 ## Technical Toolkit
@@ -39,9 +37,8 @@ A clean, interactive workflow application leveraging **React**.
 
 ## 🎮 Algorithmic Mini-Games
 
-*   **[QUIZZER GAME](https://github.io):** A dynamic quiz engine parsing programmatic data arrays to record running game scores and track choices.
-*   **[TYPING GAME](https://github.io):** An automated keyboard input tracking dashboard calculating dynamic words-per-minute (WPM) speeds and string entry accuracy rules.
-*   **[SHAPE FACTORY](https://github.io):** A geometric canvas tool harnessing JavaScript event listeners to dynamically manipulate element layout metrics instantly on user commands.
+*   **[QUIZZER GAME](https://github.io):** A quiz engine parsing data arrays to record running game scores and track choices.
+*   **[TYPING GAME](https://github.io):** A keyboard input tracking dashboard calculating speed and entry accuracy.
 
 ---
 
@@ -61,4 +58,3 @@ A clean, interactive workflow application leveraging **React**.
 *   **Name:** Patrick Rukundo
 *   **Email:** rukundo13@hotmail.com
 *   **Phone:** 204-583-7963
-*   **GitHub:** [://github.com](https://://github.com)
